@@ -1,5 +1,2 @@
 image:
   file: Dockerfile
-ports:
-  - port: 6080
-    protocol: "http"
