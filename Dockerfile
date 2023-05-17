@@ -35,4 +35,5 @@ USER gitpod
 
 ENV PATH ${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/platform-tools:${PATH}
 
-RUN ["/bin/bash", "-c", "source ~/.sdkman/bin/sdkman-init.sh && sdk install java 8.0.232-open"]
+#Disabled, there are issues
+#RUN ["/bin/bash", "-c", "source ~/.sdkman/bin/sdkman-init.sh && sdk install java 8.0.232-open"]
